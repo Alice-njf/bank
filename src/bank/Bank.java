@@ -16,5 +16,6 @@ public class Bank {
 		obj1.checkBalance("Balance", 100);
 		obj2.withdrow("Withdrow", 100);
 		obj2.checkBalance("Balance", 10);
+		System.out.println("End");
 	}
 }
