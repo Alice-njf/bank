@@ -6,6 +6,8 @@ public class Bank {
 
 		Account obj1 = new Account();
 		Account obj2 = new Account();
+		Account obj3 = new Account();
+		Account obj4 = new Account();
 		obj1.balance = 1000;
 		obj1.name = "Alice";
 		obj1.msg = "test";
@@ -26,8 +28,7 @@ public class Bank {
 		obj3.checkBalance("Balance", 10);
 		obj4.withdrow("Withdrow", 100);
 		obj4.checkBalance("Balance", 10);
-		obj5.withdrow("Withdrow", 100);
-		obj5.checkBalance("Balance", 10);
+
 		System.out.println("End");
 	}
 }
