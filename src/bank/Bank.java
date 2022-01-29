@@ -14,13 +14,16 @@ public class Bank {
 		obj2.name = "William";		
 		obj3.balance = 5000;
 		obj3.name = "Cadence";
-
+		obj4.balance = 9000;
+		obj4.name = "William";
 		obj1.withdrow("Withdrow", 100);
 		obj1.checkBalance("Balance", 100);
 		obj2.withdrow("Withdrow", 100);
 		obj2.checkBalance("Balance", 10);
 		obj3.withdrow("Withdrow", 100);
 		obj3.checkBalance("Balance", 10);
+		obj4.withdrow("Withdrow", 100);
+		obj4.checkBalance("Balance", 10);
 		System.out.println("End");
 	}
 }
