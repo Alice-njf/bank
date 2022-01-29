@@ -8,12 +8,12 @@ class Account {
 	String text = "weer";
 
 	void checkBalance(String msg, int amt) {
-		System.out.println(msg + " is " + amt + text);
-		System.out.println("Balance is " + balance);
+		System.out.println(name + ": " + msg + " is " + balance );
+		//System.out.println("Balance is " + balance);
 	}
 
 	void withdrow(String msg, int amt) {
 		balance -= amt;
-		System.out.println(msg + " is " + amt);
+		System.out.println(name + ": " +  msg + " is " + amt);
 	}
 }

@@ -12,8 +12,9 @@ public class Bank {
 		obj1.text = "ftre";
 		obj2.balance = 2000;
 		obj2.name = "William";
-		obj1.withdrow("withdrow", 100);
-		obj1.checkBalance("withdrow", 100);
-		obj2.checkBalance("withdrow", 100);
+		obj1.withdrow("Withdrow", 100);
+		obj1.checkBalance("Balance", 100);
+		obj2.withdrow("Withdrow", 100);
+		obj2.checkBalance("Balance", 10);
 	}
 }
