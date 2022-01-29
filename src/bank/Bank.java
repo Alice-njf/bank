@@ -15,7 +15,9 @@ public class Bank {
 		obj3.balance = 5000;
 		obj3.name = "Cadence";
 		obj4.balance = 9000;
-		obj4.name = "William";
+		obj4.name = "Jo";
+		obj4.balance = 12000;
+		obj4.name = "Marc";
 		obj1.withdrow("Withdrow", 100);
 		obj1.checkBalance("Balance", 100);
 		obj2.withdrow("Withdrow", 100);
@@ -24,6 +26,8 @@ public class Bank {
 		obj3.checkBalance("Balance", 10);
 		obj4.withdrow("Withdrow", 100);
 		obj4.checkBalance("Balance", 10);
+		obj5.withdrow("Withdrow", 100);
+		obj5.checkBalance("Balance", 10);
 		System.out.println("End");
 	}
 }
